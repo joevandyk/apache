@@ -14,7 +14,6 @@ env APACHE_LOG_DIR /var/log/apache2
 env APACHE_LOCK_DIR /tmp
 env APACHE_PID_FILE /tmp/apache.pid
 
-add default.conf /etc/apache2/sites-enabled/000-default.conf
 add index.html  /var/www/html/index.html
 add js.js  /var/www/html/js.js
 
