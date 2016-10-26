@@ -16,5 +16,6 @@ env APACHE_PID_FILE /tmp/apache.pid
 
 add index.html  /var/www/html/index.html
 add js.js  /var/www/html/js.js
+add image.png /var/www/html/image.png
 
 cmd /usr/sbin/apache2 -DFOREGROUND
