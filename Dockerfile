@@ -7,6 +7,7 @@ run apt-get install -y vim
 add mod-pagespeed-stable_current_amd64.deb /tmp
 run dpkg -i /tmp/mod-pagespeed-stable_current_amd64.deb
 
+# Not related to page speed
 env APACHE_RUN_USER www-data
 env APACHE_RUN_GROUP www-data
 env APACHE_LOG_DIR /var/log/apache2
