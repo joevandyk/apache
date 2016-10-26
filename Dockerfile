@@ -15,8 +15,6 @@ env APACHE_LOCK_DIR /tmp
 env APACHE_PID_FILE /tmp/apache.pid
 
 add default.conf /etc/apache2/sites-enabled/000-default.conf
-add index.html  /var/www/html/index.html
-add js.js  /var/www/html/js.js
-add image.png /var/www/html/image.png
+add html /var/www/html
 
 cmd /usr/sbin/apache2 -DFOREGROUND
